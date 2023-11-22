@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
     //hola mundo
     //no morezxc
     //:)
+    //Gta6
     var imageViewGoToRegister: ImageView? = null
     var editTextEmail:EditText? = null
     var editTextPassword:EditText? = null
