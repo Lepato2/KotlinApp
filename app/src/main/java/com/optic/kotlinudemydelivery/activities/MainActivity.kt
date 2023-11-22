@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     /* ImageView viene del paquete de android*/
     //hola mundo
     //hola mundo
+    //hola mundo
     var imageViewGoToRegister: ImageView? = null
     var editTextEmail:EditText? = null
     var editTextPassword:EditText? = null
