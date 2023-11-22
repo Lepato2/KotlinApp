@@ -27,6 +27,7 @@ import retrofit2.Response
 class MainActivity : AppCompatActivity() {
 /*Var es para definir una constante*/
     /* ImageView viene del paquete de android*/
+    //hola mundo
     var imageViewGoToRegister: ImageView? = null
     var editTextEmail:EditText? = null
     var editTextPassword:EditText? = null
