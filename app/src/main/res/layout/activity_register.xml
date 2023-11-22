@@ -48,7 +48,7 @@
             android:layout_marginTop="0dp"
             android:layout_marginRight="40dp"
             android:hint="Nombre"
-            android:textColorHint="@color/blue_accent"
+            android:textColorHint="@color/blue_light"
             android:textSize="15sp"
             android:padding="15dp"
             android:background="@drawable/edittext_custom"
@@ -68,7 +68,7 @@
             android:layout_marginRight="40dp"
             android:hint="Apellido"
             android:inputType="text"
-            android:textColorHint="@color/blue_accent"
+            android:textColorHint="@color/blue_light"
             android:textSize="15sp"
             android:padding="15dp"
             android:background="@drawable/edittext_custom"/>
@@ -87,7 +87,7 @@
             android:layout_marginRight="40dp"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:textColorHint="@color/blue_accent"
+            android:textColorHint="@color/blue_light"
             android:textSize="15sp"
             android:padding="15dp"
             android:background="@drawable/edittext_custom"/>
@@ -106,7 +106,7 @@
             android:layout_marginRight="40dp"
             android:hint="Telefono"
             android:inputType="phone"
-            android:textColorHint="@color/blue_accent"
+            android:textColorHint="@color/blue_light"
             android:textSize="15sp"
             android:padding="15dp"
             android:background="@drawable/edittext_custom"/>
@@ -125,7 +125,7 @@
             android:layout_marginRight="40dp"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:textColorHint="@color/blue_accent"
+            android:textColorHint="@color/blue_light"
             android:textSize="15sp"
             android:padding="15dp"
             android:background="@drawable/edittext_custom"/>
@@ -144,7 +144,7 @@
             android:layout_marginRight="40dp"
             android:hint="Confirmar Contraseña"
             android:inputType="textPassword"
-            android:textColorHint="@color/blue_accent"
+            android:textColorHint="@color/blue_light"
             android:textSize="15sp"
             android:padding="15dp"
             android:background="@drawable/edittext_custom"/>
