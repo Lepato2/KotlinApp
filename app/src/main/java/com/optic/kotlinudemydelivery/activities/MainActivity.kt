@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     //hola mundo
     //hola mundo
     //hola mundo
-    //no more
+    //no morezxc
     //:)
     var imageViewGoToRegister: ImageView? = null
     var editTextEmail:EditText? = null
