@@ -27,6 +27,7 @@ import retrofit2.Response
 class MainActivity : AppCompatActivity() {
 /*Var es para definir una constante*/
     /* ImageView viene del paquete de android*/
+    //register
     //hola mundo
     //hola mundo
     //hola mundo
