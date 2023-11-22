@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
     //hola mundo
     //hola mundo
     //hola mundo
+    //no more
     var imageViewGoToRegister: ImageView? = null
     var editTextEmail:EditText? = null
     var editTextPassword:EditText? = null
