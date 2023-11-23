@@ -10,6 +10,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.google.gson.Gson
 import com.optic.kotlinudemydelivery.R
@@ -34,7 +35,10 @@ class MainActivity : AppCompatActivity() {
     //no morezxc
     //:)
     //Gta6
+
+    /*
     var imageViewGoToRegister: ImageView? = null
+    */
     var editTextEmail:EditText? = null
     var editTextPassword:EditText? = null
     var buttonLogin:Button? = null
@@ -44,15 +48,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //R.layout accede a estos identificadores para referenciar los archivos de diseño y crear la interfaz de usuario correspondiente en función de su contenido
         setContentView(R.layout.activity_main)
-    //findViweById enlaza un recurso de la interfaz de usuario de una aplicación, con una variable en nuestro código
+        //findViweById enlaza un recurso de la interfaz de usuario de una aplicación, con una variable en nuestro código
+        val GoToRegister = findViewById<TextView>(R.id.go_to_register)
+        GoToRegister.setOnClickListener{goToRegister()}
+        /*
         imageViewGoToRegister=findViewById(R.id.imageview_go_to_register)
+        imageViewGoToRegister?.setOnClickListener { goToRegister()}*/
+
+        //Usamos el ? para indicar si es null esto no se ejecutara El goToRegister se utiliza para especificar
+        // el código que se debe ejecutar cuando el evento de clic ocurre en la vista
+
         editTextEmail = findViewById(R.id.edittext_email)
         editTextPassword = findViewById(R.id.edittext_password)
         buttonLogin = findViewById(R.id.btn_login)
-
+        /*
         imageViewGoToRegister?.setOnClickListener { goToRegister()}
         //Usamos el ? para indicar si es null esto no se ejecutara El goToRegister se utiliza para especificar
-        // el código que se debe ejecutar cuando el evento de clic ocurre en la vista
+        // el código que se debe ejecutar cuando el evento de clic ocurre en la vista*/
 
        buttonLogin?.setOnClickListener { login() }
 

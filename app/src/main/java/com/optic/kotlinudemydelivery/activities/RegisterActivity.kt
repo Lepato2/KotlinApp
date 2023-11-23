@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.google.gson.Gson
 import com.optic.kotlinudemydelivery.R
@@ -23,8 +24,9 @@ import retrofit2.Response
 class RegisterActivity : AppCompatActivity() {
 
     val TAG = "RegisterActivity"
-
+    /*
     var imageViewGoToLogin: ImageView? = null
+    */
     var editTextName:EditText?=null
     var editTextLastName:EditText?=null
     var editTextEmail:EditText?=null
@@ -38,8 +40,9 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
-
+        /*
         imageViewGoToLogin = findViewById(R.id.imageview_go_to_login)
+        */
         editTextName= findViewById(R.id.edittext_name)
         editTextLastName= findViewById(R.id.edittext_lastname)
         editTextEmail= findViewById(R.id.edittext_email)
@@ -48,9 +51,13 @@ class RegisterActivity : AppCompatActivity() {
         editTextPassword= findViewById(R.id.edittext_password)
         buttonRegister=findViewById(R.id.btn_register)
 
+        val GoToLogin = findViewById<TextView>(R.id.go_to_login)
+        GoToLogin.setOnClickListener{goToLogin()}
 
+        /*
         imageViewGoToLogin?.setOnClickListener{ goToLogin() }
         buttonRegister?.setOnClickListener { register() }
+        */
     }
 
     private fun register(){
@@ -175,10 +182,13 @@ class RegisterActivity : AppCompatActivity() {
 
         return true
     }
-
-
     private fun goToLogin(){
         val i = Intent(this,MainActivity::class.java)
         startActivity(i)
     }
+    /*
+    private fun goToLogin(){
+        val i = Intent(this,MainActivity::class.java)
+        startActivity(i)
+    }*/
 }
