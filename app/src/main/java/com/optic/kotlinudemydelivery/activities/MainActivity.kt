@@ -208,12 +208,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun goToRegister(){
+        val i = Intent(this,RegisterActivity::class.java)
+        startActivity(i)
+
+    /*private fun goToRegister(){
         val i = Intent (this, RegisterActivity::class.java)
         /*representa una única pantalla en una aplicación
         El código  crea un intento para abrir la actividad RegisterActivity
         desde la actividad actual y luego puedes usar ese intento para
         realmente iniciar la nueva actividad y mostrar su contenido en la pantalla*/
-        startActivity(i)
+        startActivity(i)*/
     }
 
 }
