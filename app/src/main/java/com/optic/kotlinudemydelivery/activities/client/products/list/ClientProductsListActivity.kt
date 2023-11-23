@@ -32,8 +32,8 @@ class ClientProductsListActivity : AppCompatActivity() {
 
         idCategory = intent.getStringExtra("idCategory")
 
-        recyclerViewProducts = findViewById(R.id.recyclerview_products)
         //Muestro en cuenatas columnas quiero ver los productos
+        recyclerViewProducts = findViewById(R.id.recyclerview_products)
         recyclerViewProducts?.layoutManager = GridLayoutManager(this,2)
         getProduct()
     }

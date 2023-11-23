@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.optic.kotlinudemydelivery.R
 import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
+import com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductsListActivity
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
 import com.optic.kotlinudemydelivery.activities.pedidos.home.PedidosHomeActivity
 import com.optic.kotlinudemydelivery.models.Category
@@ -41,13 +42,14 @@ class CategoriesAdapter(val context:Activity, val categories: ArrayList<Category
         holder.textViewCategory.text = category.name
         Glide.with(context).load(category.image).into(holder.imageViewCategory)
 
-//        holder.itemView.setOnClickListener{goToRol(rol)}
+        holder.itemView.setOnClickListener{goToProducts(category)}
 
     }
-//    private fun goToRol(rol:Rol){
-//            val i = Intent(context, PedidosHomeActivity::class.java)
-//            context.startActivity(i)
-//    }
+    private fun goToProducts(category:Category){
+            val i = Intent(context, ClientProductsListActivity::class.java)
+        i.putExtra("idCategory", category.id)
+          context.startActivity(i)
+    }
 
 
 
