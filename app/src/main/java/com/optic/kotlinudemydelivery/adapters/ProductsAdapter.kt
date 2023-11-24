@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.optic.kotlinudemydelivery.R
 import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
+import com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity
+import com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductsListActivity
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
 import com.optic.kotlinudemydelivery.activities.pedidos.home.PedidosHomeActivity
 import com.optic.kotlinudemydelivery.models.Category
@@ -43,13 +45,13 @@ class ProductsAdapter(val context:Activity, val products: ArrayList<Product>): R
         holder.textViewPrice.text = "${product.price}$"
         Glide.with(context).load(product.image1).into(holder.imageViewProduct)
 
-//        holder.itemView.setOnClickListener{goToRol(rol)}
+        holder.itemView.setOnClickListener{goToDetail(product)}
 
     }
-//    private fun goToRol(rol:Rol){
-//            val i = Intent(context, PedidosHomeActivity::class.java)
-//            context.startActivity(i)
-//    }
+    private fun goToDetail(product:Product){
+            val i = Intent(context, ClientProductsDetailActivity::class.java)
+            context.startActivity(i)
+    }
 
 
 
