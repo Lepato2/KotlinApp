@@ -10,8 +10,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.optic.kotlinudemydelivery.R
-import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
-import com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductsListActivity
+import com.optic.kotlinudemydelivery.activities.delivery.home.client.home.ClientHomeActivity
+import com.optic.kotlinudemydelivery.activities.delivery.home.client.products.list.ClientProductsListActivity
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
 import com.optic.kotlinudemydelivery.activities.pedidos.home.PedidosHomeActivity
 import com.optic.kotlinudemydelivery.models.Category

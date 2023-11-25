@@ -12,7 +12,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.google.gson.Gson
 import com.optic.kotlinudemydelivery.R
-import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
+import com.optic.kotlinudemydelivery.activities.delivery.home.client.home.ClientHomeActivity
 import com.optic.kotlinudemydelivery.models.ResponseHttp
 import com.optic.kotlinudemydelivery.models.User
 import com.optic.kotlinudemydelivery.providers.UsersProvider

@@ -15,7 +15,7 @@ import com.google.gson.Gson
 import com.optic.kotlinudemydelivery.R
 import com.optic.kotlinudemydelivery.activities.MainActivity
 import com.optic.kotlinudemydelivery.activities.SelectRolesActivity
-import com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity
+import com.optic.kotlinudemydelivery.activities.delivery.home.client.update.ClientUpdateActivity
 import com.optic.kotlinudemydelivery.models.User
 import com.optic.kotlinudemydelivery.utils.SharedPref
 import de.hdodenhof.circleimageview.CircleImageView

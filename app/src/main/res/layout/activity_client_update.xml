@@ -7,7 +7,7 @@ modernas y dinámicas siguiendo los principios de diseño de Material Design. --
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.client.update.ClientUpdateActivity">
+    tools:context=".activities.delivery.home.client.update.ClientUpdateActivity">
 
     <include layout="@layout/action_bar"/>
 

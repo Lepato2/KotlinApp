@@ -13,7 +13,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import com.google.gson.Gson
 import com.optic.kotlinudemydelivery.R
-import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
+import com.optic.kotlinudemydelivery.activities.delivery.home.client.home.ClientHomeActivity
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
 import com.optic.kotlinudemydelivery.activities.pedidos.home.PedidosHomeActivity
 import com.optic.kotlinudemydelivery.models.ResponseHttp
