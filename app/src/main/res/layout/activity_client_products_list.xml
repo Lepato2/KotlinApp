@@ -7,7 +7,7 @@
     tools:context=".activities.client.products.list.ClientProductsListActivity">
 
     <include layout="@layout/action_bar"/>
-
+<!--dasasdasdsaddsadsasda -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview_products"
         android:layout_width="match_parent"
